@@ -1,5 +1,5 @@
-### EX1 Creation of Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform Preprocessing
-### DATE: 
+### EX1 - Creation of Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform Preprocessing
+### DATE: 10.02.2024
 ### AIM: 
   To Create Employee, Weather dataset in WEKA Data Mining and Analysis Tool and perform preprocessing
 ### PROCEDURE: 
@@ -10,40 +10,42 @@
 --------------
 Employee Data
 ---------------
-@relation employee
-@attribute name {x,y,z,a,b}
+@relation employee 
+@attribute name {x,y,z,a,b} 
 @attribute id numeric
-@attribute salary {low,medium,high}
+@attribute salary {low,medium,high} 
 @attribute exp numeric
-@attribute gender {male,female}
+@attribute gender {male,female} 
 @attribute phone numeric
-@data
-x,101,low,2,male,250311
-y,102,high,3,female,251665
-z,103,medium,1,male,240238
-a,104,low,5,female,200200
-b,105,high,2,male,240240
+
+@data 
+x,110,low,2,male,201214
+y,111,high,1,female,201215
+z,112,medium,4,male,201213 
+a,113,low,3,female,201212 
+b,114,high,5,male,201216
 
 --------------
 Weather Data
 ---------------
 @relation weather
-@attribute outlook {sunny,rainy,overcast}
-@attribute temparature numeric
+@attribute outlook {sunny,rainy,overcast} 
+@attribute temparature numeric 
 @attribute humidity numeric
-@attribute windy {true,false}
+@attribute windy {true,false} 
 @attribute play {yes,no}
-@data
-sunny,85.0,85.0,false,no
-overcast,80.0,90.0,true,no
-sunny,83.0,86.0,false,yes
-rainy,70.0,86.0,false,yes
-rainy,68.0,80.0,false,yes
-rainy,65.0,70.0,true,no
-overcast,64.0,65.0,false,yes
-sunny,72.0,95.0,true,no
-sunny,69.0,70.0,false,yes
-rainy,75.0,80.0,false,yes
+
+@data 
+rainy,69.0,70.0,false,no
+sunny,81.0,86.0,false,yes 
+rainy,69.0,76.0,true,no 
+overcast,64.0,65.0,false,yes 
+sunny,72.0,85.0,true,no 
+rainy,70.0,78.0,false,yes 
+sunny,82.0,85.0,true,no
+overcast,80.0,86.0,true,yes
+sunny,78.0,80.0,true,yes 
+rainy,65.0,70.0,false,no 
 ```
 3) After that the file is saved with .arff file format.
 4) Minimize the arff file and then open Start -> Programs -> weka-3-4.
@@ -52,9 +54,12 @@ rainy,75.0,80.0,false,yes
 7) Explorer shows many options. In that click on ‘open file’ and select the arff file
 8) Click on edit button which shows employee table on weka.
 
-### OUTPUT:
+### OUTPUT: 
+* Training Data Set -> Employee Table
+<img width="279" alt="ex1a wdm" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/4c3dc9db-ac44-4f90-b39c-1242b8a42a4a">
 
-
+* Training Data Set-> Weather Table
+<img width="294" alt="ex1b wdm" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/ccbb6a4a-f630-4768-9985-76e3e3590abb">
 
 ### PREPROCESSING
 ### Procedure:
@@ -75,6 +80,11 @@ rainy,75.0,80.0,false,yes
 14) Click on the Edit button, it shows a new Weather Table on Weka.
 
 ### OUTPUT:
+* Employee Table after adding new attribute ADDRESS
+<img width="361" alt="ex1d add" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/9144de53-0ee0-4b10-8340-447a2da32a41">
+
+* Weather Table after adding new attribute CLIMATE:
+<img width="385" alt="ex1c add" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/c27c2a3a-b2ef-4450-a0d2-6a464de8abda">
 
 ### 2) Remove -> Pre-Processing Technique:
 
@@ -91,6 +101,11 @@ rainy,75.0,80.0,false,yes
 11) Click on the Edit button, it shows a new Weather Table on Weka.
 
 ### OUTPUT:
+* Employee Table after removing attributes SALARY, GENDER:
+<img width="296" alt="ex1d remove" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/b404203b-fdf0-4054-b081-aff50c6b46e9">
+
+* Weather Table after removing attributes WINDY, PLAY:
+<img width="587" alt="ex1c remove" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/5a94679b-accc-48f1-bd70-2de52651dd9e">
 
 ### Normalize -> Pre-Processing Technique:
 
@@ -107,5 +122,11 @@ rainy,75.0,80.0,false,yes
 11) Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
 
 ### OUTPUT:
+* Employee Table after Normalizing ID, EXP, PHONE:
+<img width="367" alt="ex1d normalize" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/2bf8e834-096d-47aa-9068-f50447a01873">
+
+* Weather Table after Normalizing TEMPARATURE, HUMIDITY:
+<img width="369" alt="ex1c normalize" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/6c7b3b8b-4acd-4071-b0f7-ba50486024d8">
+
 ### RESULT: 
   Thus the program for generating employee and weather datasets has been developed, and preprocessing has been accomplished successfully.
