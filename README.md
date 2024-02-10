@@ -80,11 +80,11 @@ rainy,65.0,70.0,false,no
 14) Click on the Edit button, it shows a new Weather Table on Weka.
 
 ### OUTPUT:
-* Employee Table after adding new attribute ADDRESS
-<img width="361" alt="ex1d add" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/9144de53-0ee0-4b10-8340-447a2da32a41">
+* Employee Table after adding new attribute ADDRESS:
+<img width="358" alt="add emp" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/1f43aa2a-a91d-42f6-9ccf-bea92b68c385">
 
 * Weather Table after adding new attribute CLIMATE:
-<img width="385" alt="ex1c add" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/c27c2a3a-b2ef-4450-a0d2-6a464de8abda">
+<img width="374" alt="add weather" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/6f5da986-e8e3-46f3-8985-63a5d7205331">
 
 ### 2) Remove -> Pre-Processing Technique:
 
@@ -102,10 +102,10 @@ rainy,65.0,70.0,false,no
 
 ### OUTPUT:
 * Employee Table after removing attributes SALARY, GENDER:
-<img width="296" alt="ex1d remove" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/b404203b-fdf0-4054-b081-aff50c6b46e9">
+<img width="178" alt="ex1d remove" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/2b026531-be09-49dc-a0d9-4857c55d8128">
 
 * Weather Table after removing attributes WINDY, PLAY:
-<img width="587" alt="ex1c remove" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/5a94679b-accc-48f1-bd70-2de52651dd9e">
+<img width="190" alt="ex1c remove" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/674872b1-12f9-4f28-bbf9-b38abaf966a8">
 
 ### Normalize -> Pre-Processing Technique:
 
@@ -123,10 +123,10 @@ rainy,65.0,70.0,false,no
 
 ### OUTPUT:
 * Employee Table after Normalizing ID, EXP, PHONE:
-<img width="367" alt="ex1d normalize" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/2bf8e834-096d-47aa-9068-f50447a01873">
+<img width="262" alt="ex1d normalize" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/370c495a-fbef-4206-a1eb-2d19ae54ab18">
 
 * Weather Table after Normalizing TEMPARATURE, HUMIDITY:
-<img width="369" alt="ex1c normalize" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/6c7b3b8b-4acd-4071-b0f7-ba50486024d8">
+<img width="266" alt="ex1c normalize" src="https://github.com/KeerthikaNagarajan/WDM_EXP1/assets/93427089/1826f1a5-6aa5-49ff-a821-3e69eb0c756f">
 
 ### RESULT: 
   Thus the program for generating employee and weather datasets has been developed, and preprocessing has been accomplished successfully.
